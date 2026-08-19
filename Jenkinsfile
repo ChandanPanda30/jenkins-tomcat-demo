@@ -46,7 +46,7 @@ pipeline {
 
                 bat '''
                     copy /Y target\\jenkins-demo.war ^
-                    "C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps"
+                    "C:\\Program Files\\Apache Software Foundation\\Tomcat 11.0\\webapps\\jenkins-demo.war"
                 '''
             }
         }
